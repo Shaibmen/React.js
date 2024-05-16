@@ -1,0 +1,182 @@
+html {
+  background-image: url(../images/photo_5348470371269072786_w.jpg);
+}
+
+
+header {
+  width: 80vw;
+  margin: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  width: 80vw;
+  margin: 0 10vw;
+  flex-direction: column;
+  grid-column: 1;
+}
+
+@media (max-width: 768px) {
+  body {
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows:  repeat(3, 70px);
+      grid-gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      grid-template-columns: repeat(3, 70px);
+      grid-template-rows: repeat(3, 70px);
+      grid-gap: 5px;
+  }
+}
+
+@media (min-width: 770px) {
+  body {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 10px;
+      max-width: 100%;
+      transform: rotate(0);
+  }
+
+ 
+}
+
+@media (max-width: 1300px) {
+  body {
+      padding: 15px;
+      box-shadow: 20px, 20px, 20px, -10px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+}
+
+.linia {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 3vh;
+}
+
+.boba {
+  display: flex;
+  justify-content: left;
+
+}
+
+a {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+.Home {
+  color: greenyellow;
+}
+
+.Button_header {
+  display: flex;
+  gap: 50px;
+  font-family: Larken-Regular;
+  font-size: 18px;
+}
+
+.Preview_main {
+  display: flex;
+  margin-top: 201px;
+
+
+}
+
+.big_text {
+  display: flex;
+  color: white;
+  font-family: Larken-Regular;
+  font-size: 72px;
+  font-weight: 400;
+  justify-content: left;
+}
+
+
+.small_text {
+  display: flex;
+  color: white;
+  font-family: Larken-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: left;
+  
+}
+
+.point {
+  margin-top: 85px;
+  color: greenyellow;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+}
+
+.group {
+  display: flex;
+  justify-content: right;
+}
+
+.govno_scroll {
+  display: flex;
+  justify-content: center;
+}
+
+.linia {
+  margin: 0 0;
+  width: 100%;
+  margin-top: 3vh;
+}
+
+.xyi {
+  display: flex;
+  justify-content: space-between;
+}
+
+zalupa {
+  display: flex;
+  width: 80vw;
+  margin: 0 10vw;
+  flex-direction: column;
+
+}  
+
+.pupa {
+  display: flex;
+  color: white;
+  font-family: Larken-Regular;
+  font-size: 75px;
+  font-weight: 400;
+  justify-content: left;
+}
+
+.daynizm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pipisu {
+  display: flex;
+  color: white;
+  font-family: Larken-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: left;
+}
